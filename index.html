@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fletes, Envíos, Mudanzas y Repartos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado / Navegación -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">Maxi Fletes e Hijo</a>
+      <nav class="nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#flota">Nuestra Flota</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto" class="btn-nav">Contactar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge">Servicio Rápido y Seguro</span>
+      <h1>Transportamos tus bienes con el cuidado que merecen</h1>
+      <p>Especialistas en fletes, envíos, mudanzas y repartos con atención personalizada y absoluta responsabilidad.</p>
+      <div class="hero-buttons">
+        <a href="#contacto" class="btn btn-primary">Solicitar Cotización sin cargo
+        </a>
+        <a href="#flota" class="btn btn-secondary">Conocer Flota</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="services section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Nuestros Servicios</h2>
+        <p>Soluciones integrales de transporte adaptadas a tus necesidades</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="icon">🚛</div>
+          <h3>Fletes</h3>
+          <p>Traslados puntuales y eficientes para cargas pequeñas, medianas y grandes.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">📦</div>
+          <h3>Envíos y Repartos</h3>
+          <p>Distribución rápida para particulares y comercios con entregas garantizadas.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">🏠</div>
+          <h3>Mudanzas</h3>
+          <p>Cuidado extremo de tus muebles y pertenencias. Mudanzas particulares y de oficinas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Flota / Vehículos con Fotos Reales -->
+  <section id="flota" class="fleet section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Nuestra Flota de Vehículos</h2>
+        <p>Unidades reales preparadas con caja mudancera y gran capacidad de carga</p>
+      </div>
+
+      <div class="fleet-grid">
+        
+        <!-- Vehículo 1: Trafic -->
+        <div class="flip-card">
+          <input type="checkbox" id="flip-trafic" class="flip-toggle">
+          <label for="flip-trafic" class="flip-card-inner">
+            <!-- Frente -->
+            <div class="flip-card-front">
+              <div class="vehicle-image-container">
+                <img src="trafic.jpeg" alt="Trafic con caja mudancera" class="vehicle-img">
+                <span class="vehicle-badge">Unidad Ágil</span>
+              </div>
+              <div class="vehicle-info">
+                <h3>Trafic con Caja Mudancera</h3>
+                <p class="click-hint">Haz clic o pasa el cursor para ver medidas</p>
+              </div>
+              <div class="overlay-btn">
+                <span class="btn-detail">Ver detalle</span>
+              </div>
+            </div>
+            <!-- Reverso -->
+            <div class="flip-card-back">
+              <h3>Trafic - Medidas y Capacidad</h3>
+              <div class="specs-list">
+                <div class="spec-item">
+                  <span class="spec-label">Dimensiones de Caja:</span>
+                  <span class="spec-value">3.00 mts (Largo) x 1.90 mts (Ancho) x 2.15 mts (Alto)</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Buche Superior:</span>
+                  <span class="spec-value">70 cm x 70 cm x 1.90 mts</span>
+                </div>
+              </div>
+              <span class="btn-back">Volver a la imagen</span>
+            </div>
+          </label>
+        </div>
+
+        <!-- Vehículo 2: Dodge -->
+        <div class="flip-card">
+          <input type="checkbox" id="flip-dodge" class="flip-toggle">
+          <label for="flip-dodge" class="flip-card-inner">
+            <!-- Frente -->
+            <div class="flip-card-front">
+              <div class="vehicle-image-container">
+                <img src="dodge.jpeg" alt="Camioneta Dodge con caja mudancera" class="vehicle-img">
+                <span class="vehicle-badge">Gran Capacidad</span>
+              </div>
+              <div class="vehicle-info">
+                <h3>Camioneta Dodge con Caja Mudancera</h3>
+                <p class="click-hint">Haz clic o pasa el cursor para ver medidas</p>
+              </div>
+              <div class="overlay-btn">
+                <span class="btn-detail">Ver detalle</span>
+              </div>
+            </div>
+            <!-- Reverso -->
+            <div class="flip-card-back">
+              <h3>Camioneta Dodge - Medidas y Capacidad</h3>
+              <div class="specs-list">
+                <div class="spec-item">
+                  <span class="spec-label">Dimensiones de Caja:</span>
+                  <span class="spec-value">3.00 mts (Largo) x 2.10 mts (Ancho) x 2.00 mts (Alto)</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Buche Superior:</span>
+                  <span class="spec-value">1.00 mt x 1.00 mt x 2.00 mts</span>
+                </div>
+              </div>
+              <span class="btn-back">Volver a la imagen</span>
+            </div>
+          </label>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Por qué elegirnos -->
+  <section id="nosotros" class="features section">
+    <div class="container">
+      <div class="features-box">
+        <h2>Tu tranquilidad es nuestra prioridad</h2>
+        <div class="features-grid">
+          <div class="feature-item">
+            <span class="check">✓</span>
+            <div>
+              <h4>Puntualidad Absoluta</h4>
+              <p>Cumplimos con los horarios pactados sin demoras.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="check">✓</span>
+            <div>
+              <h4>Trato Cuidadoso</h4>
+              <p>Tratamos tus pertenencias como si fueran nuestras.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="check">✓</span>
+            <div>
+              <h4>Atención Familiar</h4>
+              <p>Compromiso, honestidad y confianza en cada viaje.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer id="contacto" class="footer">
+    <div class="container footer-content">
+      <p class="footer-tagline">
+        "Tu confianza es nuestro motor: transportamos tus pertenencias con el compromiso, la calidez y la seguridad que solo una familia te puede brindar."
+      </p>
+
+      <div class="whatsapp-container">
+        <h3>Contactanos directamente por WhatsApp:</h3>
+        <div class="whatsapp-buttons">
+          <a href="https://wa.me/541160061040" target="_blank" rel="noopener" class="btn-whatsapp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="wa-icon"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3 18.6-68.1-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+            WhatsApp +54 11 6006-1040
+          </a>
+          <a href="https://wa.me/541161460977" target="_blank" rel="noopener" class="btn-whatsapp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="wa-icon"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3 18.6-68.1-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+            WhatsApp +54 11 6146-0977
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fletes, Envíos y Mudanzas. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
